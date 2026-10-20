@@ -1,0 +1,45 @@
+{
+  "name": "mind-glaive-marketplace",
+  "owner": {
+    "name": "TheGlitchKing",
+    "email": "contact@theglitchking.dev"
+  },
+  "metadata": {
+    "description": "Official marketplace for mind-glaive - Claude Code plugin for eliminating context rot",
+    "version": "2.0.1"
+  },
+  "plugins": [
+    {
+      "name": "mind-glaive",
+      "description": "Eliminate context rot in Claude Code with intelligent memory, auto-learning hooks, and specialized subagents",
+      "version": "2.0.1",
+      "author": {
+        "name": "TheGlitchKing"
+      },
+      "homepage": "https://github.com/TheGlitchKing/mind-glaive",
+      "repository": "https://github.com/TheGlitchKing/mind-glaive.git",
+      "license": "MIT",
+      "keywords": [
+        "context",
+        "memory",
+        "persistence",
+        "hooks",
+        "subagents",
+        "knowledge-base",
+        "claude-code"
+      ],
+      "category": "productivity",
+      "tags": [
+        "context-management",
+        "memory",
+        "learning",
+        "automation"
+      ],
+      "source": {
+        "source": "npm",
+        "package": "@theglitchking/mind-glaive"
+      },
+      "strict": true
+    }
+  ]
+}
